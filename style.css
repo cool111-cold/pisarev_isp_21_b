@@ -1,9 +1,41 @@
 * {
-    margin: 2% 0% 0% 2%;
     padding: 0;
     background-color: #4b4b4b;
     color: white;
     font-family: "Roboto", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.2em;
+    margin-left: 2%;
+    overflow-x: hidden;
+}
+
+.maintxt {
+    color: #85ffed;
+}
+
+.labtxt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 150vh;
+    margin-left: 0%;
 }
