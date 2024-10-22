@@ -102,7 +102,8 @@ body, html {
 
 .res_before {
     width: 25%;
-    height: 60px;
+    height: auto;
+    min-height: 60px;
     background-color: #1E1E1E;
     border-radius: 30px;
     display: flex;
@@ -128,7 +129,8 @@ body, html {
 
 .res_after {
     width: 25%;
-    height: 60px;
+    height: auto;
+    min-height: 60px;
     border-radius: 30px;
     border: 3px solid #1E1E1E;
     display: flex;
