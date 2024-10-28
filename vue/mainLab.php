@@ -14,6 +14,8 @@
                 myTaskFour('0'.$i+1, $txtlist[$i], $beforelist[$i], $afterlist[$i]);
             }else if ($dev[$i] == 5) {
                 myTaskFive('0'.$i+1, $txtlist[$i], $beforelist[$i], $afterlist[$i]);
+            }else if ($dev[$i] == 6) {
+                myTaskSix('0'.$i+1, $txtlist[$i], $afterlist[$i]);
             }
         }
         echo "</div>";

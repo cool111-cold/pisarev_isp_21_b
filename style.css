@@ -115,6 +115,7 @@ body, html {
     border: 3px solid #1E1E1E;
     transition: all ease .2s;
     cursor: default;
+    text-align: center;
 }
 
 .res_before:hover {
@@ -176,7 +177,18 @@ header, footer {
 }
 
 
-
+.submit-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    background-image: url(free-icon-atom-9178189.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: loading 10s linear infinite;
+}
 
 
 
